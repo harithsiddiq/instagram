@@ -13,7 +13,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="100dp"
         android:layout_marginEnd="8dp"
-        android:fontFamily="@font/abeezee"
+        android:fontFamily="@font/oleo_script_swash_caps"
         android:text="Instagram"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
         app:layout_constraintEnd_toEndOf="parent"

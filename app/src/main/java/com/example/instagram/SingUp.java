@@ -146,10 +146,4 @@ public class SingUp extends AppCompatActivity {
         }
     }
 
-    @Override
-    protected void onPostResume() {
-        super.onPostResume();
-//        if (ParseUser.getCurrentUser() != null)
-//            finish();
-    }
 }
