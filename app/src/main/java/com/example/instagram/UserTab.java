@@ -1,6 +1,7 @@
 package com.example.instagram;
 
 
+import android.content.Intent;
 import android.os.Bundle;
 import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
@@ -69,7 +70,9 @@ public class UserTab extends Fragment {
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-                
+                Intent intent = new Intent(getContext(), UsersPost.class);
+                intent.putExtra("name", names.get(i));
+                startActivity(intent);
             }
         });
 
